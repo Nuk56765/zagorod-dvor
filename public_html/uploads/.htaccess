@@ -1,0 +1,5 @@
+# В папке фото PHP не выполняется
+<FilesMatch "\.(php|phtml|php\d|phar)$">
+    Require all denied
+</FilesMatch>
+Options -Indexes

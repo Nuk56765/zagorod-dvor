@@ -1,0 +1,10 @@
+# Локальные настройки и служебные файлы сайта
+app/config.local.php
+data/sessions/
+data/*.lock
+data/*.tmp
+data/login-attempts.json
+
+# Системное
+.DS_Store
+Thumbs.db
